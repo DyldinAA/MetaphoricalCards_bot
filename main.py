@@ -29,9 +29,9 @@ def get_user_text(message):
 def send_text(message):
     print(message.text)
     if message.text.lower() == 'hi':
-        bot.send_message(message.chat.id, 'Привет, неизвестный!')
+        bot.send_message(message.chat.id, 'Привет, чоуж!')
     elif message.text.lower() == 'photo':
         bot.send_photo(message.chat.id, open('03.jpg', 'rb'))
 
 
-bot.polling(none_stop=True)
+bot.polling(none_stop=True)git
